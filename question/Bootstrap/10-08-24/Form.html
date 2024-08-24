@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+	
+	<!-- Internal -->
+	<style>
+		/* HTML Tag Selector */
+		label{
+			color : red; /* CSS comment */
+			background-color : yellow;
+		}
+		/* HTML ID Selector */
+		#user_email, #abc{
+			color : green;
+		}
+		/* HTML Class Selector */
+		.my-class{
+			color : green;
+		}
+		
+	</style>
+</head>
+<body>
+
+ 
+    <nav class="navbar navbar-expand-sm bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="logo.PNG" height="30px" width="40px" /></a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Form.html">Form</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="bootstrap_practice.html">Example</a>
+            </li>
+      
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+
+
+
+
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-success" type="submit">Search</button>
+            <button class="btn btn-success mx-1" type="submit">login</button>
+
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+<div class="container">
+
+
+<form action="" method="">
+	<fieldset>
+	<legend>Trainee Information</legend>
+		<label id="abc" style="color : red; background-color : blue;">Name</label>
+		<input type="text" id="user_name" placeholder="Full User Name" />
+		<br/>
+		<label>Email</label>
+		<input type="email" id="user_email" placeholder="example@email.com"/>
+		<br/>
+		<label class="my-class">Mobile</label>
+		<input type="number" id="cell_no" placeholder="+88017-00000000"/>
+		<br/>
+		<label>Gender</label>
+		<input type="radio" id="male" name="gender" />Male
+		<input type="radio" id="female" name="gender" />Female
+		<input type="radio" id="others" name="gender" />Others
+		<br/>
+		<label class="my-class">Education</label>
+		<input type="checkbox" id="ssc" name="education" />SSC
+		<input type="checkbox" id="hsc" name="education" checked="checked"/>HSC
+		<input type="checkbox" id="bsc" name="education" />BSC	
+		<input type="checkbox" id="msc" name="education" />MSC
+		<br/>
+		<label>Area</label>
+		<select id="area">
+			<option>Mirpur</option>
+			<option>Gulshan</option>
+			<option>Banani</option>
+			<option>Kakrail</option>
+			<option>Dhanmondi</option>
+			<option selected="selected">Uttara</option>
+		</select>
+		<br/>
+		<label class="my-class">DOB</label>
+		<input type="date" id="dob" />
+		<br/>
+		<label>File</label>
+		<input type="file" id="file" />
+		<!--
+		<textarea id="address" placeholder="Full Address" col="4" rows="4"></textarea>
+		-->
+		<br/>
+		<input type="submit" value="Submit" />
+	</fieldset>
+</form>
+</div>
+</body>
+
+</html>

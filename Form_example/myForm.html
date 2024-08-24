@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0" />
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1>REGISTRATION FORM</h1>
+    <!-- <form name="RegForm" onsubmit="return validateForm()"> -->
+        <form >
+
+        <p>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="Name" 
+                placeholder="Enter your full name" />
+            <!-- <span id="name-error" class="error-message"></span> -->
+        </p>
+        <p>
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="Address" 
+                placeholder="Enter your address" />
+            <!-- <span id="address-error" class="error-message"></span> -->
+        </p>
+        <p>
+            <label for="email">E-mail Address:</label>
+            <input type="text" id="email" name="EMail" 
+                placeholder="Enter your email" />
+            <!-- <span id="email-error" class="error-message"></span> -->
+        </p>
+        <p>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="Password" />
+            <!-- <span id="password-error" class="error-message"></span> -->
+        </p>
+        <p>
+            <label for="subject">Select Your Course:</label>
+            <select id="subject" name="Subject">
+                <option value="">
+                    Select Course
+                </option>
+                <option value="BTECH">
+                    BTECH
+                </option>
+                <option value="BBA">
+                    BBA
+                </option>
+                <option value="BCA">
+                    BCA
+                </option>
+                <option value="B.COM">
+                    B.COM
+                </option>
+            </select>
+            <!-- <span id="subject-error" class="error-message"></span> -->
+        </p>
+        <p>
+            <label for="subject">Gender:</label>
+
+            <input type="radio" name="gender" value="Male">Male
+            <input type="radio" name="gender" value="Female">Female
+            <input type="radio" name="gender" value="Others">Others
+            <br>
+          
+        </p>
+        <p>
+            <label for="comment">College Name:</label>
+            <textarea id="comment" name="Comment"></textarea>
+        </p>
+        <p>
+            <input type="checkbox" id="agree" name="Agree" />
+            <label for="agree">I agree to the above
+                information</label>
+            <!-- <span id="agree-error" class="error-message"></span> -->
+        </p>
+        <p>
+            <button type="button" onclick="myFunction()">Submit</button>
+            <button type="reset"  >Reset</button>
+        </p>
+
+        <div id="output"></div>
+    </form>
+
+    <!-- <script src="script.js"></script> -->
+
+    <script>
+    function myFunction(){
+    const name = document.getElementById("name").value;
+    const address = document.getElementById("address").value;
+    const email = document.getElementById("email").value;
+    const password = document.getElementById("password").value;
+    const subject = document.getElementById("subject").value;
+    const agree = document.getElementById("agree").checked;
+
+    const redioVal = displayRadioValue();
+ 
+
+    let allValue = "Name: " + name + "<br>" + "Address: " + address
+                   + "<br> " + "Email: " + email +"<br>" + "password: " +password
+                   + "<br> " + "Subject: " + subject +"<br>" + "Gender: " + redioVal
+                   + "<br> " + "Agree: " + agree;
+
+
+    
+
+
+
+       document.getElementById("output").innerHTML = allValue;
+
+}
+
+
+
+        function displayRadioValue() {
+            var ele = document.getElementsByName('gender');
+ 
+            for (i = 0; i < ele.length; i++) {
+                if (ele[i].checked)
+                    return ele[i].value;
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <script src="bootstrap-modal.js"></script>
+  </head>
+  <body >
+
+    <!-- Example Code -->
+    <div class="container-fluid p-5 bg-primary text-white text-center">
+  <h1>My First Bootstrap Page</h1>
+  <p>Resize this responsive page to see the effect!</p> 
+</div>
+
+    <nav class="navbar navbar-expand-sm bg-primary sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="logo.PNG" height="30px" width="40px" /></a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+             <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Form.html">Form</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="bootstrap_practice.html">Example</a>
+            </li>
+      
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+
+
+
+
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-success" type="submit">Search</button>
+            <button class="btn btn-success mx-1" type="submit">login</button>
+
+          </form>
+        </div>
+      </div>
+    </nav>
+    
+
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-sm-6 col-md-6">
+      <h3>Column 1</h3>
+      <img src="https://www.searchenginejournal.com/wp-content/uploads/2022/04/reverse-image-search-627b7e49986b0-sej.png" height="30%" width="50%"  >
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-6 col-md-6">
+      <h3>Column 2</h3>
+       <img src="https://t3.ftcdn.net/jpg/08/33/88/38/360_F_833883866_kRRZly3XWndI50UotA0m4bXURKnIgSya.jpg" height="30%" width="50%"  >
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+
+
+    <div class="col-sm-2">
+      <h3>Column 3</h3>  
+       <img src="https://media.istockphoto.com/id/502955703/photo/child-with-vintage-camera.jpg?s=612x612&w=0&k=20&c=h_cm8Bs9omgfxVEeKlSH9RwR-JJeowsOjgifYF0oGOE=" height="30%" width="50%"  >      
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+     <div class="col-sm-2">
+      <h3>Column 4</h3>  
+       <img src="https://media.istockphoto.com/id/502955703/photo/child-with-vintage-camera.jpg?s=612x612&w=0&k=20&c=h_cm8Bs9omgfxVEeKlSH9RwR-JJeowsOjgifYF0oGOE=" height="30%" width="50%"  >      
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+     <div class="col-sm-3">
+      <h3>Column 5</h3>  
+       <img src="https://media.istockphoto.com/id/502955703/photo/child-with-vintage-camera.jpg?s=612x612&w=0&k=20&c=h_cm8Bs9omgfxVEeKlSH9RwR-JJeowsOjgifYF0oGOE=" height="30%" width="50%"  >      
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div> 
+  </div>
+</div>
+
+<div class="container">
+  
+<button><a class="btn" data-toggle="modal" href="#myModal" >Launch Modal</a></button>
+
+<div class="modal" id="myModal">
+  <div class="modal-header">
+    <a class="close" data-dismiss="modal">×</a>
+    <h3>Modal header</h3>
+  </div>
+  <div class="modal-body">
+    <p>One fine body…</p>
+  </div>
+  <div class="modal-footer">
+    <a href="#" class="btn btn-primary">Save changes</a>
+    <a href="#" class="btn">Close</a>
+  </div>
+</div>
+</div>
+
+ <script type="text/javascript">
+  $('#myModal').modal()
+</script> 
+
+
+
+  </body>
+</html>

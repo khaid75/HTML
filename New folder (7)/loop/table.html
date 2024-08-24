@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       table, th, td {
+       border: 1px solid black;
+       border-collapse: collapse;
+}
+th, td {
+  border-color: #ff0000;
+}
+    </style>
+</head>
+<body>
+    <table style="width: 50%;">
+        <tr>
+          <th>Name</th>
+          <th rowspan="3">Result</th>
+          <th colspan="2">Student</th>
+         
+        </tr>
+        <tr style="width: 100%;">
+          <td>Tanvir</td>
+          <td>X</td>
+          <td>80</td>
+        </tr>
+        <tr>
+          <td>Ayan</td>
+          <td>||</td>
+          <td>90</td>
+        </tr>
+        
+      </table>
+      <form action="#" style="margin: 50px;">
+        <fieldset >
+           <legend>Personal Details</legend>
+  
+           <label for="id">Id: </label>
+           <input type="text" name="id" id="id" placeholder="Type your id">
+    
+           </br>
+           <br>
+           <lable for="Name">Name: </lable><br>
+           <textarea name="Name" cols="20" row="3"></textarea>
+           </br>
+           <br>
+           <lable for="Round">Round: </lable>
+           <select>
+            <option>None</option>
+            <option>61</option>
+            <option>62</option>
+            <option>63</option>
+           </select>
+           </br>
+           <br>
+           <lable for="Gender">Gender:</lable>
+           <input type="radio" name="gender" value="male">Male
+           <input type="radio" name="gender" value="female">Female
+           </br>
+           <br>
+           <lable for="Select language:">Education: </lable>
+           <br>
+           <lable >SSC:</lable>
+           <input type="checkbox"><br>
+           <lable >HSC:</lable>
+           <input type="checkbox"><br>
+           <br>
+           </br>
+
+           <input type="submit" value="Click">
+           <button type="submit" value="Submit">Submit</button>
+  
+           </br>
+        </fieldset>
+     </form>
+</body>
+</html>

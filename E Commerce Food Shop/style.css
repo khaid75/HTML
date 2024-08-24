@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    text-decoration: none;
+}
+.navbar-brand:hover{
+    color: black;
+}
+a.nav-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    font-family: "Rubik", sans-serif;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: black;
+}
+input.px-2.search {
+    height: 40px;
+    width: 219px;
+    margin-right: -35px;
+    font-family: "Rubik", sans-serif;
+    border: 2px solid #f81a5c;
+    border-radius: 60px;
+    outline: none;
+}
+button.btn0 {
+    height: 40px;
+    width: 80px;
+    outline: none;
+    border: none;
+    background: #f81a5c;
+    color: white;
+    font-weight: 700;
+    border-radius: 50px;
+}
+/*Section*/
+section.main{
+    background: url(asset/jobimgs/Burger.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.main h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #fff;
+}
+.btn-1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline:none;
+    background-color: #f81a5c;
+    border-radius: 60px;
+    color: white;
+    font-weight: 700;
+}
+h1 {
+    font-weight: 700;
+}
+
+button.btn-1 {
+    font-weight: 700;
+    color: white;
+}
+button.btn-1:hover{
+    background-color: #692237;
+    transition: 0.5s;
+}
+
+.card:hover{
+    -webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+transition: 0.5s;
+}
+.apple{
+    background: url(https://img.freepik.com/premium-photo/going-backtoschool-happy-child-smile-holding-apple-horizontal-isolated-poster-school-girl-student-banner-header-portrait-schoolgirl-copy-space_545934-65360.jpg)no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+.apple h1{
+    font-family: "Lobster", sans-serif;
+    font-weight: 800;
+    font-style: normal
+}
+section.news.py-5 {
+    background-color: black;
+    color: white;
+}
+button.btn-2 {
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    font-weight: 600;
+}
+.news input{
+    height: 43px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.news p{
+    margin: 0;
+}
+i {
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+}

@@ -1,0 +1,40 @@
+.ex1 {
+  border: 2px solid black;
+  outline-style: solid;
+  outline-color: red;
+}
+
+.ex2 {
+  border: 2px solid black;
+  outline-style: dotted;
+  outline-color: blue;
+}
+
+.ex3 {
+  border: 2px solid black;
+  outline-style: outset;
+  outline-color: grey;
+}
+
+.ex4 {outline: thick ridge pink;}
+
+#abc {outline: thick ridge pink;}
+
+/*p.ex1 {outline: dashed;}
+p.ex2 {outline: dotted red;}
+p.ex3 {outline: 5px solid yellow;}*/
+
+
+/*p {
+  margin: 30px;
+  background:yellow;
+  border: 1px solid black;
+  outline: 1px solid red;
+  outline-offset: 15px;
+}*/
+
+
+/*<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">*/
+/*body {
+  font-family: "Sofia", sans-serif;
+}*/

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    
+    <script>
+        /*let Students = {
+            Name: "Khalid",
+            Address: "Mirpur-10",
+            hobbies: ["Gaming", "Reading Book", "Learning English"]
+        }
+        let text = "<h1>" + Students.Name + "</h1>" + "<h2>" + Students.Address + "</h2>";
+        for (let i = 0; i < Students.hobbies.length; i++) {
+            text += "<h3>" + Students.hobbies[i] + "</h3>"
+        }
+        document.getElementById("demo").innerHTML = text;*/
+    </script>
+
+    <script>
+        let Students = {
+            Name: "Khalid",
+            Address: "Mirpur-10",
+            hobbies: ["Gaming", "Reading Book", "Learning English"]
+        }
+        let text = "<h1>" + Students.Name + "</h1>"
+                    + "<h2>" + Students.Address + "</h2>"
+                    + "<ul>";
+                for ( let i = 0; i < Students.hobbies.length; i++){
+                    text += "<li>" + Students.hobbies[i] + "</li>"
+                }
+                text += "</ul>";
+
+                document.getElementById("demo").innerHTML = text;
+    </script>
+</body>
+</html>

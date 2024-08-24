@@ -1,0 +1,275 @@
+Q1. Which language is used to format documents on the Internet?
+A. SGML
+B. RTF
+C. XML
+D. HTML
+
+Q2. Which one is used to access a File on the Internet?
+A. UML
+B. URL
+C. XML
+D. HTML
+
+Q3. FTP is a _______________.
+A. URL
+B. Internet Server
+C. Protocol
+D. Hyperlink
+
+Q3. Which one allows you to navigate from one web page to another?
+A. Protocol
+B. URL
+C. Hyperlink
+D. HTTP
+
+Q4. ISP stands for _________________.
+A. Internet Source Provider
+B. Internet Service Provider
+C. Internet Server Provider
+D. Internet Service Point
+
+Q5. Which software is to access and view HTML documents on the Internet?
+A. Web browser
+B. Web server
+C. Search engine
+D. Google
+
+Q6. Which one makes messages over the Internet secure?
+A. Firewall
+B. Antivirus
+C. Encryption
+D. Search engine
+
+Q7. Phishing is a form of ______________.
+A. Web surfing
+B. Internet messaging
+C. Internet fraud
+D. Internet security
+
+Q8. Microsoft Internet Explorer is a ______________.
+A. Mail Manager
+B. Web authoring application
+C. Web browser
+D. Search engine
+
+Q9. What is Spam?
+A. It is a virus which spreads through emails
+B. It is the bulk sending of unsolicited email messages
+C. It is a email message with files attached
+D. It is email message securing system
+
+Q10. HTTP stands for _________________.
+A. HTML Transfer Protocol
+B. Hyperlink Transfer Protocol
+C. Hypertext Transfer Protocol
+D. Hypertext Transmission Protocol
+
+Q11. The World Wide Web is –
+a. All the linked documents that are held on a global network of computer systems
+b. The world-wide e-mail system
+c. The cables and communications satellites that connect systems all over the world
+d. Is a system of interlinked hypertext documents accessed via the Internet
+
+Q12. What does the abbreviation “WAN” stand for?
+a. World Application Network
+b. World Area Navigation
+c. Wide Algorithm of Number
+d. Wide Area Network
+
+Q13. Which one of the following statements about the Internet is TRUE?
+a. The Internet is a global network that links many computer networks together.
+b. The Internet is a private company network.
+c. The Internet is a visual representation of linked documents.
+d. The Internet is a network operating system.
+
+Q14. Which of the following statements about the Internet is NOT true?
+a. It enables computers with different operating systems to exchange date
+b. It is not controlled by any single organization
+c. You need a license to publish material on the internet
+d. It allows computer to share data over large distances
+
+Q15. What does the term LAN stand for?
+a. Long area network
+b. large area network
+c. Local area network
+d. Lean area network
+e. Low area network
+
+Q16. Which of the following are names of Internet browsers?
+a. Internet Explorer
+b. Windows Explorer
+c. Netscape Explorer
+d. Netscape Navigator
+e. Opera
+
+Q17. IM Stands for:
+a. International Mail
+b. Instant messaging
+c. Instant Mail
+d. Internat Mail
+
+
+
+MCQ (Module – 1 & 2) : 
+
+1. Which one of the following statements about safety precautions applicable to power cables is true when using computers?
+
+A. Faulty cables should not be repaired using insulating tape.
+
+B. You should shutdown your PC by unplugging it from the electricity supply.
+
+C. Cables should not be extended across open areas.
+
+D. More than one computer should not use the same power socket.
+
+2. Which one of the following statements best describes the Intranet?
+
+A. A network that is shared between more than one organization
+
+B. A network of computers, accessible to everyone
+
+C. An internal network, using e-mail and Web, within a single organization
+
+D. A world-wide collection of computer files connected by links
+
+ 3. The physical components of your computer are referred to as –
+
+A. Software                        B. Operating System
+
+C. Hardware                       D. Casing
+
+ 4. Which of the following factors affect the performance of a PC?
+
+A. Multi tasking considerations    B. RAM size
+
+C. Both A and B                                      D. None
+
+ 5. Freeware is the term that is applied to :
+
+A. Software that you can try free of charge before buying
+
+B. Software that you don’t have to pay for
+
+Advertisement
+
+C. Old versions of commercial software that are out of date
+
+D. Software that will run under any operating system
+
+ 6. The Operating System is loaded into the ___________ when the PC is switched on.
+
+A. MOUSE                             B. ROM
+
+C. Hard Disk                        D. RAM
+
+ 7. Which one of these types of computer memory is permanent and unchanging?
+
+A. Random Access Memory        B. Working Memory
+
+C. Virtual Memory                           D. Read-Only Memory
+
+ 8. Which of the following items is responsible for loading the operating system from the disk into the RAM?
+
+A. CPU                                     B.ROM
+
+C. ROM-BIOS                      D. Flash BIOS
+
+ 9. Which one of the following statements about copyrighted software is true?
+
+A. Text on a web page can be freely copied and re-used
+
+B. Graphics published on the web are subject to copyright
+
+C. When you buy software, you become the owner of the copyright
+
+D. It is legal to share any audio files on the internet
+
+ 10. Which statement about computers and the environment is true?
+
+A. You can’t recycle paper form an inkjet printer
+
+B. Using an animated screensaver saves power.
+
+C. If a PC needs to be left on, you won’t save energy by switching of the monitor.
+
+D. Laptops on standby use less electricity than when running normally.
+
+ 
+
+MCQ (Module – 1 & 2) : 
+
+1. What is the main advantage of compressing files?
+
+A. Make a file suitable for use                     B. Transfer data with faster speed
+
+C. Reduction in file size                                D. All of the above
+
+2. By which technique can we select multiple files which are not in a continuous block?
+
+A. Keeping the Ctrl key pressed while clicking on the filenames
+
+B. Keeping the Shift key pressed while clicking on the file names
+
+C. Repeatedly pressing the Tab key
+
+D. Keeping the Alt key pressed while clicking on the file names
+
+3. Which of the following options would allow us to customize the Windows Desktop background?
+
+A. Right Click Desktop → Properties → Desktop
+
+B. Right Click Desktop → Personalize → Desktop Background
+
+C. Start→ Searching
+
+D. Right Click My Computer→ Properties
+
+Advertisement
+
+4. We wish to search for al files that begin with the letters “Fi”. Which of the following wildcard search should we use?
+
+A. Fi                                    B. *Fi
+
+C. Fi??                                   D. ?Fi?
+
+5. You can close an open window by pressing which keyboard shortcut?
+
+A. Esc                                    B. Alt+ F4
+
+C. Ctrl+ F4                            D. Alt+ Ctrl
+
+ 6. Which of the following icons on your Desktop most likely represent an application?
+
+A. My Documents            B. My Computer
+
+C. My Network Place      D. Internet Explorer
+
+7. What keyboard shortcut we can use to switch between open Windows?
+
+A. Ctrl+ C                             B. Alt+ F
+
+C. Alt+ Tab                          D. Alt+ X
+
+8. HTML stands for
+
+A. Hyper Text Making Language.
+
+B. Hidden Text Markup Language.
+
+C. Hotmail Text Markup Language.
+
+D. Hyper Text Markup Language.
+
+9. Which of the following can display the tree structure of folders & files on a disk?
+
+A. Popup Menu                                B. Windows Explorer
+
+C. Title Bar                                          D. Start Button
+
+10. What is the keyboard shortcut for opening the “Start” menu?
+
+A. Shift+ Esc                       B. Ctrl+ Esc
+
+C. Alt+ Esc                           D. Ctrl+ Alt+ Esc
+
+ 
